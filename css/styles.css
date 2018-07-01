@@ -200,11 +200,76 @@ h1,h2,h3,h4,h5,h6,p {
   }
 }
 
+/*--------------------Main-----------------------------------------*/
+
+.search {
+  margin-top: 25px;
+}
+
+.search_input {
+  display: flex;
+  padding: 15px 0px 15px 30px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.5);
+  color: rgba(98, 98, 98, 0.5);
+  font-size: 13px;
+  line-height: 24px;
+  outline: none;
+  background: url("../img/search.svg") no-repeat 0px;
+  background-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .search_input {
+    font-size: 16px;
+  }
+}
+
+.main_title {
+  font-size: 22px;
+  line-height: 34px;
+  color: #1d1d1d;
+  margin: 40px 0 0;
+}
+
+.restaurant_blank {
+  margin: 16px 0 20px;  
+}
+
+.rest_photo {
+  height: 250px;
+  width: 100%;
+}
+
+.rest_title {
+  font-size: 16px;
+  line-height: 24px;
+  color: #1d1d1d;
+  margin: 16px 0px 4px 0px;
+}
+
+.rest_type {
+  display: inline-flex;
+  font-size: 14px;
+  line-height: 21px;
+  color: #626262;
+  margin: 0px 0px 4px 0px;
+}
+
+.rest_time {
+  font-size: 13px;
+  line-height: 21px;
+  color: #1d1d1d;
+  margin: 0;
+}
+
 /* ------------------Footer---------------------------------------- */
 
 .footer {
   display: flex;
   background: #262626;
+  margin-top: 80px;
 }
 
 .footer_social {
