@@ -92,6 +92,7 @@ h1,h2,h3,h4,h5,h6,p {
 @media (min-width: 992px) {
   .delivery_type {
     font-size: 16px;
+    padding: 7px 10px;
   }
 }
 
@@ -272,6 +273,63 @@ h1,h2,h3,h4,h5,h6,p {
   margin-top: 80px;
 }
 
+.logo_footer {
+  padding: 56px 0 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.footer_lang {
+  background: #3b3b3b;
+  width: 173px;
+  margin-top: 32px;
+}
+
+@media (min-width: 992px) {
+  .footer_lang {
+    width: 227px;
+  }
+}
+
+.footer_select {
+  display: flex;
+  width: 173px;
+  border: none;
+  border-radius: 2px;
+  background: url(../img/world.svg) no-repeat 26px,
+    url(../img/select-icon.svg) no-repeat 150px;
+  color: #fff;
+  font-size: 13px;
+  line-height: 15px;
+  padding: 13px 0 12px 48px;
+  text-transform: uppercase;
+  outline: none;
+  /* appearance: none;
+  -moz-appearance: none;
+  -ms-progress-appearance: none; */
+  -webkit-appearance: none;
+}
+
+@media (min-width: 992px) {
+  .footer_select {
+    width: 227px;
+    background: url(../img/world.svg) no-repeat 26px,
+      url(../img/select-icon.svg) no-repeat 205px;
+  }
+}
+
+
+
+.hash {
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  margin: 32px 0px 16px 0px;
+}
+
+.hash_sign {
+  color: #49a144;
+}
+
 .footer_social {
   display: flex;
 }
@@ -280,9 +338,109 @@ h1,h2,h3,h4,h5,h6,p {
   display: inline-flex;
   width: 24px;
   height: 24px;
+  margin-right: 12px;
 }
 
 .icon_facebook {
   background: url("../img/facebook.svg") no-repeat;
-  position: relative;
+  /* position: relative;
+  left: 3px;
+  top: 3px; */
+}
+
+.icon_twitter {
+  background: url("../img/twitter.svg") no-repeat;
+}
+
+.icon_instagram {
+  background: url("../img/instagram.svg") no-repeat;
+}
+
+.footer_about {
+  margin-top: 40px;
+}
+
+.menu_item {
+  display: flex;
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 15px;
+  margin: 0px 0px 23px 0px;
+}
+
+@media (min-width: 768px) {
+  .footer_faq {
+    margin-top: 40px;
+    margin-bottom: 48px;
+  }
+}
+
+.footer_app {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.footer_apple {
+  width: 107px;
+  height: 36px;
+  background: url(../img/applestore.svg) no-repeat;
+  background-size: cover;
+  margin: 25px 12px;
+}
+
+.footer_google {
+  width: 124px;
+  height: 36px;
+  background: url(../img/googleplay.svg) no-repeat;
+  background-size: cover;
+  margin: 25px 12px;
+}
+
+@media (min-width: 768px) {
+  .footer_apple {
+    width: 121px;
+    height: 40px;
+    margin: 40px 20px;
+  }
+  .footer_google {
+    width: 135px;
+    height: 40px;
+    margin: 40px 20px;
+  }
+}
+
+.copyright {
+  display: flex;
+  color: #fff;
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 13px;
+  padding: 12px 0;
+}
+
+@media (min-width: 768px) {
+  .copyright {
+    padding: 40px 0;
+    margin: 0;
+  }
+}
+
+.scroll {
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  right: 16px;
+  bottom: 24px;
+  background: #59bd5a url(../img/arrow.svg) no-repeat center;
+  border-radius: 2px;
+}
+
+@media (min-width: 768px) {
+  .scroll {
+    width: 80px;
+    height: 80px;
+  }
 }
