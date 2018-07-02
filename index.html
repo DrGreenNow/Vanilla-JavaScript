@@ -18,7 +18,7 @@
           </div>
 
           <div class="location">
-            <form class="location_form">
+            <form class="location_form" action="#">
               <select class="delivery_type">
                 <option value="ASAP">ASAP</option>
               </select>
@@ -42,6 +42,19 @@
         <div class="search">
           <form>
             <input class="search_input" type="text" placeholder="Search for restaurant or cuisine">
+          </form>
+        </div>
+
+        <div class="location_mobile">
+          <form class="location_form" action="#">
+            <label class="location_label">When
+              <select class="delivery_type" name="time">
+                <option value="ASAP">ASAP</option>
+              </select>
+            </label>
+            <label class="location_label">To
+              <input class="location_adrs" type="text" placeholder="ul. Bolshaya Dmitrovka, 22">
+            </label>
           </form>
         </div>
 
