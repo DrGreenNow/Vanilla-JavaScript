@@ -337,9 +337,6 @@ h1,h2,h3,h4,h5,h6,p {
   padding: 13px 0 12px 48px;
   text-transform: uppercase;
   outline: none;
-  /* appearance: none;
-  -moz-appearance: none;
-  -ms-progress-appearance: none; */
   -webkit-appearance: none;
 }
 
@@ -350,8 +347,6 @@ h1,h2,h3,h4,h5,h6,p {
       url(../img/select-icon.svg) no-repeat 205px;
   }
 }
-
-
 
 .hash {
   font-size: 16px;
@@ -377,9 +372,6 @@ h1,h2,h3,h4,h5,h6,p {
 
 .icon_facebook {
   background: url("../img/facebook.svg") no-repeat;
-  /* position: relative;
-  left: 3px;
-  top: 3px; */
 }
 
 .icon_twitter {
